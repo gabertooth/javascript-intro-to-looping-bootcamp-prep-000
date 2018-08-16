@@ -21,8 +21,8 @@ function incrementVariable(){
 }
 function doWhileLoop(array){
   do {
-    [array.shift];
+    [array.pop];
     }
     while (array.length > 0 && incrementVariable())
-  
+  return array
 }
