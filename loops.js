@@ -12,8 +12,8 @@ function whileLoop(n){
   let countdown = n
   while (countdown>0){
     console.log(--countdown);
-  }}
-   return 'done';
+  }
+  return 'done'
 }
 function doWhileLoop(array){
   var i = 0 
@@ -23,5 +23,5 @@ function incrementVariable(){
     [array.pop];
     }
     while (array.length > 0 && incrementVariable())
-  
+}
 }
