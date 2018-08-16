@@ -19,9 +19,10 @@ function whileLoop(n){
 function doWhileLoop(array){
   var i = 0 
   do {
+    
+    array.pop;
     incrementVariable(){
   i=i+1}
-    array.pop;
     
     }
     while (array.length > 0 && incrementVariable()){
