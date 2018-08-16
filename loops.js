@@ -25,5 +25,5 @@ function doWhileLoop(array){
     return array 
     }
     while (array.length > 0 && incrementVariable())
-  return array
+  
 }
