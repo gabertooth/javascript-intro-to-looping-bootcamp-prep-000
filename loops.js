@@ -17,5 +17,9 @@ function whileLoop(n){
 }
 
 function doWhileLoop(array){
-  for (i = 0; i<0;)
+  do {
+    [array.shift];
+    }
+    while (array.length > 0 && incrementVariable())
+  
 }
