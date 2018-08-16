@@ -22,7 +22,7 @@ function incrementVariable(){
   do {
     [array.pop];
     }
-    while (array.length > 0 && incrementVariable()===True)
+    while (array.length > 0 && incrementVariable())
 }
 return array
 }
