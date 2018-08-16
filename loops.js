@@ -9,8 +9,8 @@ for (i = 0; i < 25; i++) {
 }
 
 function whileLoop(n){
-  let countdown = n
-  while (>0){
-    console.log();
+  let countdown = 100
+  while (countdown>0){
+    console.log('Done');
   }
 }
