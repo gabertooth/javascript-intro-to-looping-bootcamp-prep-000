@@ -12,14 +12,13 @@ function whileLoop(n){
   let countdown = n
   while (countdown>0){
     console.log(--countdown);
-  }
-   return 'done'
-}
-var i = 0 
-function incrementVariable(){
-  i=i+1;
+  }}
+   return 'done';
 }
 function doWhileLoop(array){
+  var i = 0 
+function incrementVariable(){
+  i=i+1;
   do {
     [array.pop];
     }
